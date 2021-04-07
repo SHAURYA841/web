@@ -1,0 +1,45 @@
+*{
+margin:0;
+padding:0;
+}
+.nav{
+overflow:hidden;
+background-color:black;
+width:100%;
+height:50px;
+}
+.nav a{
+padding:16px 25PX;
+float:right;
+color:white;
+ display: block;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav .active{
+background-color:#ddd;
+color:black;
+}
+.nav .logo{ 
+float:left;
+width:120px;
+height:65px;
+}
+.nav .title{
+float:left;
+color:white;
+}
+.d{
+margin:auto;
+width:500px;
+height:575px;
+float:center;
+}
+.d h1{
+font-size:48px;
+}
+.d h3{
+font-size:25px;
+}
